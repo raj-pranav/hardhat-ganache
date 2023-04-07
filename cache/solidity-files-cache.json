@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\GitHUB-Pranav\\Personal\\web3-Hardhat\\contracts\\rfid_car.sol": {
+      "lastModificationDate": 1680792315339,
+      "contentHash": "264ab8f6ebc8bb8f1952277c74e02296",
+      "sourceName": "contracts/rfid_car.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "RFID_Car"
+      ]
+    }
+  }
+}
