@@ -27,15 +27,11 @@ return runSuper();
 
 module.exports = {
   solidity: "0.8.19",
-  defaultNetwork: "goerli",
+  defaultNetwork: "ganache",
   networks: {
     ganache:{
-      url: "HTTP://127.0.0.1:7545",
-      // accounts: ["0x72ab46eca21d829820b50a3aa0b221468b4777b66c89c92a5b3cbc422b26a017"]
+      url: process.env.GANACHE_URL,
+      accounts: [process.env.G_PRIVATE_KEY]
     },
-    goerli:{
-      url: process.env.GOERLI_URL,
-      accounts: [process.env.GOERLI_ACC]
-    }
   }
 };
