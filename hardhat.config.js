@@ -34,5 +34,9 @@ module.exports = {
       url: process.env.GANACHE_URL,
       accounts: [process.env.G_PRIVATE_KEY]
     },
+    goerli:{
+      url: process.env.GO_URL,
+      accounts: [process.env.GO_PRIVATE_KEY]
+    },
   }
 };
