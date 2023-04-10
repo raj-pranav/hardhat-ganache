@@ -27,8 +27,9 @@ return runSuper();
 
 module.exports = {
   solidity: "0.8.19",
-  defaultNetwork: "ganache",
+  defaultNetwork: "hardhat",
   networks: {
+    hardhat:{},
     ganache:{
       url: process.env.GANACHE_URL,
       accounts: [process.env.G_PRIVATE_KEY]
