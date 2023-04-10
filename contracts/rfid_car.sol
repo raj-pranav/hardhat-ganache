@@ -5,7 +5,7 @@ pragma solidity ^0.8.9;
 
 contract RFID_Car {
 
-    uint32  num = 1 ;  // not a public state variable
+    uint32 num;  // not a public state variable
 
     // function to read number
     function read_num() public view returns (uint32) {
@@ -13,9 +13,8 @@ contract RFID_Car {
     }
 
     // function to change/update number
-    function update_num(uint32 _val) public returns (uint32) {
+    function update_num(uint32 _val) public {
         num = _val;
-        return num;
     }
 
 }
